@@ -27,3 +27,17 @@ function clone(response) {
 function text(response) {  
   return response.text()  
 }
+
+function parseToJson(response) {
+  console.log('MoviePage response to JSON');
+  var movielist = [];
+  Xml(response, function (error, data){
+    console.log(data);
+    for (var key in data.movies.movie){
+      movielist.push(data.movies.movie[key]);
+    }
+    console.log("list: ", movielist.toString());
+  });
+  
+  return(movielist);
+}
