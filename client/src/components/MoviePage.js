@@ -69,7 +69,7 @@ export default class MoviePage extends React.Component {
       })
     )
   } 
-
+  {
     const { movies } = this.state;
     const id = this.props.params.id;
     const movie = movies.filter((movie) => movie.id == id)[0]
