@@ -15,7 +15,9 @@ function status(response) {
     return Promise.resolve(response)  
   } else {  
     return Promise.reject(new Error('fail')).then(function(error){
+      console.log(error);
     }, function(error){
+      console.log(error);
     });  
   }  
 }
