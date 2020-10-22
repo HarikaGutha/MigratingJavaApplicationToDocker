@@ -53,9 +53,6 @@ import javax.ws.rs.core.MediaType;
 import org.javaee7.movieplex7.entities.Movie;
 import org.javaee7.movieplex7.json.MovieWriter;
 
-/**
- * @author Arun Gupta
- */
 @Named
 @RequestScoped
 public class MovieClientBean {
