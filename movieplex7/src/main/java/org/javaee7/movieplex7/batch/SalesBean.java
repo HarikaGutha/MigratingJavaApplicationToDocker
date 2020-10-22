@@ -51,9 +51,6 @@ import javax.persistence.PersistenceUnit;
 import org.javaee7.movieplex7.entities.Sales;
 
 
-/**
- * @author Arun Gupta
- */
 @Named
 @RequestScoped
 public class SalesBean {
