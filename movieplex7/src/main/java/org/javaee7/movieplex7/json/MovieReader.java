@@ -55,9 +55,6 @@ import javax.ws.rs.ext.MessageBodyReader;
 import javax.ws.rs.ext.Provider;
 import org.javaee7.movieplex7.entities.Movie;
 
-/**
- * @author Arun Gupta
- */
 @Provider
 @Consumes(MediaType.APPLICATION_JSON)
 public class MovieReader implements MessageBodyReader<Movie> {
