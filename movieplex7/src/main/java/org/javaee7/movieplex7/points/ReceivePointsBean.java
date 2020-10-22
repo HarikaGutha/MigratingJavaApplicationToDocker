@@ -53,9 +53,6 @@ import javax.jms.JMSException;
 import javax.jms.Queue;
 import javax.jms.QueueBrowser;
 
-/**
- * @author Arun Gupta
- */
 @JMSDestinationDefinition(name = "java:global/jms/pointsQueue",
         interfaceName = "javax.jms.Queue")
 @Named
