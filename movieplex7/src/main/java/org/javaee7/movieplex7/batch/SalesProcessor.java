@@ -45,9 +45,6 @@ import javax.enterprise.context.Dependent;
 import javax.inject.Named;
 import org.javaee7.movieplex7.entities.Sales;
 
-/**
- * @author Arun Gupta
- */
 @Dependent
 @Named
 public class SalesProcessor implements ItemProcessor {
