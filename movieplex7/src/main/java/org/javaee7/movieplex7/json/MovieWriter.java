@@ -54,9 +54,6 @@ import javax.ws.rs.ext.MessageBodyWriter;
 import javax.ws.rs.ext.Provider;
 import org.javaee7.movieplex7.entities.Movie;
 
-/**
- * @author Arun Gupta
- */
 @Provider
 @Produces(MediaType.APPLICATION_JSON)
 public class MovieWriter implements MessageBodyWriter<Movie> {
