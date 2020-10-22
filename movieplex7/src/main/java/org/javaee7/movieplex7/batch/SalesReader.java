@@ -49,9 +49,7 @@ import javax.batch.api.chunk.AbstractItemReader;
 import javax.enterprise.context.Dependent;
 import javax.inject.Named;
 
-/**
- * @author Arun Gupta
- */
+
 @Dependent
 @Named
 public class SalesReader extends AbstractItemReader {
