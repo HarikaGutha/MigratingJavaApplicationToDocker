@@ -50,9 +50,6 @@ import javax.persistence.PersistenceContext;
 import org.javaee7.movieplex7.entities.Movie;
 import org.javaee7.movieplex7.entities.ShowTiming;
 
-/**
- * @author Arun Gupta
- */
 @Named
 @FlowScoped("booking")
 public class Booking implements Serializable {
