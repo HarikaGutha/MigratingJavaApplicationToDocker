@@ -48,9 +48,6 @@ import javax.persistence.PersistenceContext;
 import javax.transaction.Transactional;
 import org.javaee7.movieplex7.entities.Sales;
 
-/**
- * @author Arun Gupta
- */
 @Dependent
 @Named
 public class SalesWriter extends AbstractItemWriter {
