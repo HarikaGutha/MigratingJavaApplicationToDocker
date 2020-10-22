@@ -42,9 +42,6 @@ package org.javaee7.movieplex7.rest;
 import java.util.List;
 import javax.persistence.EntityManager;
 
-/**
- * @author Arun Gupta
- */
 public abstract class AbstractFacade<T> {
     private Class<T> entityClass;
 
