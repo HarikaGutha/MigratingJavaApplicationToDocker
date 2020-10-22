@@ -52,9 +52,6 @@ import javax.validation.constraints.NotNull;
 import javax.xml.bind.annotation.XmlRootElement;
 import javax.xml.bind.annotation.XmlTransient;
 
-/**
- * @author Arun Gupta
- */
 @Entity
 @Table(name = "THEATER")
 @XmlRootElement
